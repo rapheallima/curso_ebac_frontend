@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Lista de Tarefas</title>
+</head>
+
+<body>
+    <div id="container">
+        <div>
+            <header id="titulo">
+                <h1 class="letras">Lista de Tarefas</h1>
+            </header>
+        </div>
+        <div>
+            <form id="form-input">
+                <input id="nova-tarefa" type="text" required placeholder="Digite o nome da tarefa">
+                <button type="submit">Cadastrar</button>
+                <button id="limpar" type="reset">Limpar</button>
+            </form>
+        </div>
+        <div>
+            <ul id="lista">
+            </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

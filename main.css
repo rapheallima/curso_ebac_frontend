@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(189, 189, 189);
+    max-width: 100%;
+    min-width: 40%;
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 16px;
+}
+
+h1 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 55px;
+}
+
+form {
+    background-color: rgb(23, 20, 16);
+    display: flex;
+    display: flex;
+    padding: 19px;
+    justify-content: center;
+}
+
+input,
+button {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px 3px;
+    margin-left: 18px;
+    text-align: center;
+    border-radius: 4%;
+    cursor: pointer;
+    border: none;
+}
+
+button {
+    background-color: rgb(0, 141, 0);
+}
+
+ul {
+    padding: 16px;
+    max-width: 50%;
+    list-style: inside;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: start;
+    margin-left: 35%;
+}
+
+li:hover {
+    color: rgba(100, 100, 100, 0.74);
+    cursor: pointer;
+}
+
+.lista:hover {
+    text-decoration: line-through;
+    color: red;
+}
+
+.lista {
+    text-decoration: line-through;
+    color: red;
+}
+
+.letras {
+    letter-spacing: -2px;
+}
+
+#container {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    align-items: center;
+    margin: auto;
+}
+
+#limpar {
+    background-color: rgb(141, 0, 0);
+}
