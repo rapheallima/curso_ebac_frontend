@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: azure;
+}
+
+.container {
+    max-width: 920px;
+}
+
+.container>header {
+    background-color: rgb(81, 156, 188);
+    padding: 16px;
+    text-align: center;
+}
+
+.container2 {
+    width: 100%;
+    margin: 16px;
+}
+
+form {
+    max-width: 920px;
+    background-color: #c3c3c3;
+}
+
+form label {
+    padding: 3px;
+    font-weight: bolder;
+}
+
+input.form-control {
+    padding-right: 18px;
+    margin-right: 18px;
+}
+
+button.btn {
+    margin: 20px 0 auto;
+    width: 200px;
+}
