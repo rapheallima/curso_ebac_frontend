@@ -1,0 +1,49 @@
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    z-index: 1;
+}
+
+section {
+    height: 100vh;
+    background-color: #c5c5c5;
+    padding-top: 70px;
+}
+
+h2,
+h4,
+p {
+    text-align: center;
+}
+
+h2 {
+    padding: 50px;
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    padding-top: 38px;
+}
+
+.navbar>h1 {
+    text-align: center;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.navbar-nav .nav-link.active {
+    color: aliceblue;
+}
+
+.cont2 img {
+    height: 750px;
+}
+
+.carousel-control, .carousel-control:focus, .carousel-control:hover { opacity: 1 }
