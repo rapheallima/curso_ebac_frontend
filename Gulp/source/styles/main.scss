@@ -1,0 +1,30 @@
+@use 'val';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: val.$corFundo;
+    border: 1px solid val.$corPadrao;
+    display: flex;
+    justify-content: center;
+
+    .container {
+        max-width: 100%;
+        width: 1920px;
+        border: 1px solid val.$corPadrao;
+
+        header {
+
+            background-color: val.$fundoHeader;
+            padding: 20px;
+            max-width: 100%;
+
+            h1 {
+                text-align: center;
+                color: val.$corPadrao;
+            }
+        }
+    }
+}
