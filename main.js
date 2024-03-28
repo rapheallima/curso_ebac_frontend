@@ -17,10 +17,13 @@ function Honda(modelo, fabricante, cilindrada, anoMod, anoFab, velMax, tanque, c
     this.consumo = consumo
     this.reserva = reserva
 
-    Jetski.call(this, velMax, tanque);
+    Jetski.call(this, modelo, fabricante, cilindrada, anoMod, anoFab, velMax, tanque);
+
     Moto.call(this, modelo, fabricante, cilindrada, anoMod, anoFab)
-  
+
 }
+
+
 
 const yamaha = new Moto("Ybr", "Yamaha", 125, 2010, 2009);
 const yamahaJet = new Jetski("FxCruiser", "Yamaha", 1052, 2015, 2014, 110, 57);
