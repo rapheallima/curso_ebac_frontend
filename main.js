@@ -17,7 +17,8 @@ function Honda(modelo, fabricante, cilindrada, anoMod, anoFab, velMax, tanque, c
     this.consumo = consumo
     this.reserva = reserva
 
-    Jetski.call(this,modelo, fabricante, cilindrada, anoMod, anoFab, velMax, tanque);
+    Jetski.call(this, velMax, tanque);
+    Moto.call(this, modelo, fabricante, cilindrada, anoMod, anoFab)
   
 }
 
